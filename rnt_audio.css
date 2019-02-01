@@ -14,3 +14,14 @@
 */
 
 /* Audio Styles */
+audio {
+    display: block;
+    box-shadow: darkgray 8px 8px 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 32px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+}
